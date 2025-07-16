@@ -199,7 +199,7 @@ function StudentCard({ student }: { student: Student }) {
             {student.skills.map((skill) => (
               <Badge key={skill} variant="secondary">
                 {skill}
-              </badge>
+              </Badge>
             ))}
           </div>
         </div>
@@ -226,5 +226,5 @@ function StudentCard({ student }: { student: Student }) {
         </Button>
       </CardFooter>
     </Card>
-  )
+  );
 }
